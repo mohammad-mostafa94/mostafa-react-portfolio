@@ -1,11 +1,13 @@
 
 import './App.css';
-import My_Navbar from './components/Navbar/Navbar.jsx'
+import HomeCarousel from './components/Carosel/HomeCarousel';
+import MyNavbar from './components/Navbar/Navbar.jsx'
 function App() {
   return (
     (<div className="App">
-      <My_Navbar></My_Navbar>
-      bismillah
+      <MyNavbar/>
+      <HomeCarousel></HomeCarousel>
+     
     </div>)
   );
 }

@@ -3,10 +3,10 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import  "./Navbar.css"
 
-const My_Navbar = () => {
+const MyNavbar = () => {
   return (
     <div>
-       <Navbar
+      <Navbar
         fixed="top"
         variant="dark"
         expand="md"
@@ -18,9 +18,9 @@ const My_Navbar = () => {
           </Navbar.Brand>
         </div>
         <div>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto ">
+            <Nav className="mr-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>
@@ -31,8 +31,8 @@ const My_Navbar = () => {
           </Navbar.Collapse>
         </div>
       </Navbar>
-    </div>
+    </div> 
   );
 };
 
-export default My_Navbar;
+export default MyNavbar;
