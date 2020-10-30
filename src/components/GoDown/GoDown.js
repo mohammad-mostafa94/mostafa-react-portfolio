@@ -22,7 +22,7 @@ const MyScroll = styled.div`
 const ScrollDown = () => {
   return (
     <MyScroll>
-      <div className="turn text-dark">
+      <div className="turn ">
         <span> &gt; </span>
       </div>
     </MyScroll>
