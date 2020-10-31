@@ -19,7 +19,7 @@ const MyTitleMessage = styled.h1`
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 7px;
-
+    font-color:#0000
     .main {
       font-size: 50px;
     }
@@ -34,8 +34,9 @@ const TitleMessage = () => {
     return (
         <MyTitleMessage>
     <div className="titleMessage">
+    
       <div className="heading">
-        <div className="main text-center mb-3">
+        <div className="main text-center ">
           This is
           <br />
           <span>
@@ -45,13 +46,14 @@ const TitleMessage = () => {
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["React Web Developer", "Learning with programming hero"],
+              strings: ["React Web Developer", "Learning with programming hero",' '],
               autoStart: true,
               loop: true,
               delay: 50
             }}
           />
         </div>
+        
       </div>
     </div>
   </MyTitleMessage>

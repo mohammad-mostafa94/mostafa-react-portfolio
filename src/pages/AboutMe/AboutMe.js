@@ -2,8 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-// import "./about.styles.css";
-// import Profile from "../../assets/img/profile/profile.webp";
+
 import './AboutMe.css'
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";

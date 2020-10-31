@@ -10,19 +10,11 @@ import L_REACT_BOOTSTRAP from "../../storage/skills/react-bootstrap.svg";
 import L_STYLED_COMPONENTS from "../../storage/skills/styled-components.svg";
 import L_NODE_JS from "../../storage/skills/nodejs.svg";
 import L_EXPRESS from "../../storage/skills/express.svg";
-// import L_DJANGO from "../../storage/skills/django.svg";
-// import L_FLASK from "../../storage/skills/flask.svg";
 import L_MONGODB from "../../storage/skills/mongodb.svg";
-// import L_POSTGRESQL from "../../storage/skills/postgresql.svg";
-// import L_MSSQL from "../../storage/skills/mssql.svg";
 import L_GIT from "../../storage/skills/git-icon.svg";
 import L_HEROKU from "../../storage/skills/heroku.svg";
-// import L_DIGITAL_OCEAN from "../../storage/skills/digital-ocean.svg";
 import L_GITHUB_PAGES from "../../storage/skills/github.svg";
 import L_JAVASCRIPT from "../../storage/skills/javascript.svg";
-// import L_TYPESCRIPT from "../../storage/skills/typescript.svg";
-// import L_GOLANG from "../../storage/skills/go-6.svg";
-// import L_PYTHON from "../../storage/skills/python.svg";
 
 
 export const skills = {
@@ -109,18 +101,7 @@ export const skills = {
         imgSrc: L_EXPRESS,
         skillName: "Express",
       },
-    //   {
-    //     link: "https://www.djangoproject.com/",
-    //     imgAltText: "Django",
-    //     imgSrc: L_DJANGO,
-    //     skillName: "Django",
-    //   },
-    //   {
-    //     link: "https://flask.palletsprojects.com/",
-    //     imgAltText: "Flask",
-    //     imgSrc: L_FLASK,
-    //     skillName: "Flask",
-    //   },
+    
     ],
     hostingPlatforms: [
       {
@@ -129,12 +110,7 @@ export const skills = {
         imgSrc: L_HEROKU,
         skillName: "Heroku",
       },
-    //   {
-    //     link: "https://www.digitalocean.com/",
-    //     imgAltText: "Digital Ocean",
-    //     imgSrc: L_DIGITAL_OCEAN,
-    //     skillName: "Digital Ocean",
-    //   },
+    
       {
         link: "https://pages.github.com/",
         imgAltText: "GitHub Pages",
@@ -149,38 +125,10 @@ export const skills = {
         imgSrc: L_JAVASCRIPT,
         skillName: "JavaScript",
       },
-    //   {
-    //     link: "https://www.typescriptlang.org/",
-    //     imgAltText: "TypeScript",
-    //     imgSrc: L_TYPESCRIPT,
-    //     skillName: "TypeScript",
-    //   },
-    //   {
-    //     link: "https://www.python.org/",
-    //     imgAltText: "Python",
-    //     imgSrc: L_PYTHON,
-    //     skillName: "Python",
-    //   },
-    //   {
-    //     link: "https://golang.org/",
-    //     imgAltText: "Golang",
-    //     imgSrc: L_GOLANG,
-    //     skillName: "Golang",
-    //   },
+    
     ],
     databases: [
-    //   {
-    //     link: "https://www.postgresql.org/",
-    //     imgAltText: "PostgreSQL",
-    //     imgSrc: L_POSTGRESQL,
-    //     skillName: "PostgreSQL",
-    //   },
-    //   {
-    //     link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-    //     imgAltText: "MS-SQL",
-    //     imgSrc: L_MSSQL,
-    //     skillName: "MS-SQL",
-    //   },
+    
       {
         link: "https://www.mongodb.com/",
         imgAltText: "MongoDB",

@@ -2,45 +2,52 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
-import L_ACCENTURE from "../../assets/img/experience/accenture-3.svg";
+import Button from "react-bootstrap/Button";
+import Col from "react-bootstrap/Col";
 import Tilt from "react-tilt";
 import "./Experience.css";
 
 const Experience = () => {
   return (
-    <div id="experience">
-      <h1 className="pt-3 text-center  pb-3">EXPERIENCE</h1>
+    <div id="about">
+      <h1 className="pt-3 text-center  pb-3">ABOUT MYSELF</h1>
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 25 }}>
             <Card>
-              {/* <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                <Card.Img variant="top" className="img-resize" src={L_ACCENTURE} alt="Accenture logo" />
-              </Card.Header> */}
+            
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
                   <Card.Title className="text-center">MD. Golam Mostafa</Card.Title>
                 </div>
                 <div>
                   <Card.Text className="text-center style">
-                    <strong className="body-title-style ">React Web Developer</strong>
+                    <strong className="body-title-style ">Curious React Web Developer</strong>
                     <br />
-                    <strong>Technology:</strong> React JS, JavaScript,Node JS,MongoDB,
-                    <br />
-                    <strong>Duration:</strong> June 2020 - Present
+                    
+                   
                     <br/>
-                    <strong> Description </strong>
+                    
                     <ul className="text-left">
-                        <li>
-                            <strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.
-                        </li>
-                        <li>
-                            <strong>Provided</strong> application maintenance while working as `Production Support`. 
-                        </li>
-                        <li><strong>Performed</strong> CRUD operations on multiple databases to load/ remove data according 
-                            to the business requirements.</li>
-                        <li><strong>Co-created</strong> React Document used as a guide for new developers.</li>
+                    
+                I am a Front-End Developer.I had a great interest in 
+                React web development from my childhood.I always 
+                wondered how these web pages work. A passionate programmer
+                 and a Learner, born and brought up in Bangladesh. I am a
+                  React Web Developer with <strong>React.js, Redux, Express.js,
+                   JavaScript, Node.js, and MongoDB as my tech stack.</strong> 
+                
 
+                Working with the clients, my goal is always
+                 driven towards providing amazing experience
+                  with the best level of quality and service to them.
+                
+                Along with that, I also help people as a COACH 
+                on their journey of becoming a professional programmer. 
+                I love learning about new technologies, 
+                what problems are they solving and How can I use
+                 them to build better and scalable products.
+                <br />
                     </ul>
                     
                     
@@ -49,6 +56,36 @@ const Experience = () => {
               </Card.Body>
             </Card>
           </Tilt>
+          <Col className="d-flex justify-content-center flex-wrap">
+                  <div>
+                    <a href="#contact">
+                      <Button className="m-2" variant="primary">
+                        Let's talk
+                      </Button>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://drive.google.com/file/d/10NhKKzpXqeZfIxNF1N_-UsEWHAWps8L1/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                      <Button className="m-2" variant="success">
+                        Resume
+                      </Button>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://github.com/MdGolamMostafa" target="_blank" rel="noopener noreferrer">
+                      <Button className="m-2" variant="dark">
+                        GitHub
+                      </Button>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://www.linkedin.com/in/gm-shakil-bhuiyan-42306817a/" target="_blank" rel="noopener noreferrer">
+                      <Button className="m-2" variant="info">
+                        LinkedIn
+                      </Button>
+                    </a>
+                  </div>
+                </Col>
         </Container>
       </Jumbotron>
     </div>
