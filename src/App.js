@@ -12,6 +12,7 @@ import ContactForm from './pages/Contact/ContactForm';
 import FooterPanel from './components/Footer/Footer';
 import Contact from './pages/Contact/ContactForm';
 import ContactLink from './pages/Contact/Contact';
+import Blogs from './pages/Blogs/Blogs';
 
 function App() {
   return (
@@ -48,6 +49,12 @@ function App() {
           <hr />
           <TimeLine />
         </Slide>
+      </Container>
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <Blogs />
+        </Fade>
       </Container>
       <Container className="container-box rounded">
         <Fade duration={500}>

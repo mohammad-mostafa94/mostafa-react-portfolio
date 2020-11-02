@@ -10,7 +10,8 @@ import "./Experience.css";
 const Experience = () => {
   return (
     <div id="about">
-      <h1 className="pt-3 text-center  pb-3">ABOUT MYSELF</h1>
+      <br/>
+      <h1 className="pt-5 text-center  pb-3">ABOUT MYSELF</h1>
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 25 }}>

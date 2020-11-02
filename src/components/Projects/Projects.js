@@ -23,7 +23,8 @@ import "./Projects.css";
 const TimeLine = () => {
   return (
     <div id="projects">
-      <h1 className="pt-3 text-center  pb-3">RECENT PROJECTS</h1>
+      <br/><br/>
+      <h1 className="pt-4 text-center  pb-3">RECENT PROJECTS</h1>
       <Timeline>
         <Events>
         

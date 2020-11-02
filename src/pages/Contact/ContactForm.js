@@ -3,9 +3,10 @@ import './ContactForm.css';
 import Button from "react-bootstrap/Button";
 const Contact = () => {
     return (
-        <section className="contact my-5 py-5">
+        <section id="contact" className="contact my-5 py-5">
             <div className="container">
                 <div className="section-header text-center text-white mb-5">
+                    <br/>
                     <h1 className="text-primary">Contact Me</h1>
                     
                 </div>
