@@ -1,5 +1,5 @@
 .logo {
-    width: 25%;
+    width: 35%;
   }
   
   .nav-theme {
@@ -13,7 +13,7 @@
   
   @keyframes moveDown {
     from {
-      transform: translateY(-5rem);
+      transform: translateY(-9rem);
     }
     to {
       transform: translateY(0rem);
