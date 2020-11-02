@@ -470,7 +470,7 @@ const TimeLine = () => {
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 
                 <UrlButton
-                  href="https://github.com/MdGolamMostafa/volunteer-network-client"
+                  href="https://github.com/MdGolamMostafa/doctors-portal-client"
                   target="_blank"
                 >
                   GITHUB(Client)
@@ -484,7 +484,7 @@ const TimeLine = () => {
                 </UrlButton>
 
                 <UrlButton
-                  href="https://github.com/MdGolamMostafa/volunteer-network-server"
+                  href="https://github.com/MdGolamMostafa/server-doctors-portals"
                   target="_blank"
                 >
                   GITHUB(Server)
