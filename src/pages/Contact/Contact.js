@@ -5,10 +5,10 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import "./Contact.css";
 
-const ContactForm = () => {
+const ContactLink = () => {
   return (
     <div id="contact">
-      <h1 className="pt-3 text-center  pb-3">CONTACT ME</h1>
+      <h1 className="pt-3 text-center  pb-3">CONNECT ALWAYS WITH ME</h1>
       <Jumbotron className="contact-jumbotron">
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">
@@ -49,4 +49,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default ContactLink;

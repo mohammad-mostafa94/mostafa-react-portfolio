@@ -8,8 +8,10 @@ import Slide from "react-reveal/Slide";
 import { Parallax } from "react-parallax";
 import Experience from './pages/EXPERIENCE/Experience';
 import TimeLine from './components/Projects/Projects';
-import ContactForm from './pages/Contact/Contact';
+import ContactForm from './pages/Contact/ContactForm';
 import FooterPanel from './components/Footer/Footer';
+import Contact from './pages/Contact/ContactForm';
+import ContactLink from './pages/Contact/Contact';
 
 function App() {
   return (
@@ -51,6 +53,13 @@ function App() {
         <Fade duration={500}>
           <hr />
           <ContactForm />
+        </Fade>
+      </Container>
+      <hr />
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <ContactLink />
         </Fade>
       </Container>
       <hr />
