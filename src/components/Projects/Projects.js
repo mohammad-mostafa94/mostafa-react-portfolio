@@ -33,7 +33,7 @@ const TimeLine = () => {
             date="Sep-09-2020"
             className="text-center"
             text="Creative Agency"
-            src={'https://i.ibb.co/zJ4J2YB/Creative-Agency.png'}
+            src={'https://i.ibb.co/q5yzzPP/1-Landing-page.png'}
             alt="Creative Agency"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -343,7 +343,7 @@ const TimeLine = () => {
             date="Jul-11-2020"
             className="text-center"
             text="Doctors Portal"
-            src={'https://i.ibb.co/wyz2n39/Doctor-Portal.png'}
+            src={'https://i.ibb.co/5jnLY7R/doctor-home-page.png'}
             alt="Doctors Portal"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
