@@ -14,14 +14,38 @@ import Contact from './pages/Contact/ContactForm';
 import ContactLink from './pages/Contact/Contact';
 import Blogs from './pages/Blogs/Blogs';
 
+import StarfieldAnimation from "react-starfield-animation";
+
 function App() {
   return (
-    <div className="App" style={{ position: "relative" }}>
+    <div 
+        // <StarfieldAnimation
+        // style={{
+        //   position: "fixed",
+        //   width: "100%",
+        //   height: "100%",
+        // }}
+        // />
+
+    className="App" style={{ position: "relative" }}>
       <MyNavbar/>
         <TitleMessage></TitleMessage>
      
       <HomeCarousel></HomeCarousel>
       
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <TimeLine />
+        </Slide>
+      </Container>
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <Blogs />
+        </Fade>
+      </Container>
+
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
@@ -41,21 +65,8 @@ function App() {
           
         </Parallax>
       </div>
-      
-      
 
-      <Container className="container-box rounded">
-        <Slide bottom duration={500}>
-          <hr />
-          <TimeLine />
-        </Slide>
-      </Container>
-      <Container className="container-box rounded">
-        <Fade duration={500}>
-          <hr />
-          <Blogs />
-        </Fade>
-      </Container>
+
       <Container className="container-box rounded">
         <Fade duration={500}>
           <hr />

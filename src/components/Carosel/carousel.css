@@ -1,4 +1,7 @@
-.custom-img {
+/* .custom-img {
     height: 100vh;
     object-fit: cover;
-    }
+    } */
+.color-dark{
+    background-color:#173880;
+}

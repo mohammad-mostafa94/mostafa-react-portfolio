@@ -24,7 +24,7 @@ const TimeLine = () => {
   return (
     <div id="projects">
       <br/><br/>
-      <h1 className="pt-4 text-center  pb-3">RECENT PROJECTS</h1>
+      <h1 className="pt-1 text-center  pb-3">RECENT PROJECTS</h1>
       <Timeline>
         <Events>
         
