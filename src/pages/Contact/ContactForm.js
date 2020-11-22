@@ -86,7 +86,7 @@ const Contact = () => {
                                     <h5>+8801521320291</h5>
                                     <h4 style={{ color: '#24ACF2' }}>E-mail</h4>
                                     <h5>gmshakilbhuiyan@gmail.com</h5>
-                                    <h4 style={{ color: '#24ACF2' }}>Locations</h4>
+                                    <h4 style={{ color: '#24ACF2' }}>Location</h4>
                                     <h5>Mugda, Dhaka</h5>
                                 </div>
 

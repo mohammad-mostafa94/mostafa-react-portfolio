@@ -44,7 +44,7 @@ const HomeCarousel = () => {
                     variant="outline-primary"
                   >
                     View My Linkedin Profile
-                    <img className=" mr-2" src={"https://i.ibb.co/VJg3Jcb/linkedin-1.png"} alt="" />
+                    <img className=" ml-1" src={"https://i.ibb.co/VJg3Jcb/linkedin-1.png"} alt="" />
                   </Button>
                 </Slide>
                 <Slide right>
@@ -54,7 +54,7 @@ const HomeCarousel = () => {
                     href="https://github.com/MdGolamMostafa"
                   >
                     View My GitHub Profile
-                    <img className="svg-icon" src={"https://i.ibb.co/yFzJwNr/github.png"} alt="" />
+                    <img className=" ml-1" src={"https://i.ibb.co/yFzJwNr/github.png"} alt="" />
                   </Button>
                 </Slide>
                 <Slide bottom> 
