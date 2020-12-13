@@ -33,7 +33,7 @@ const HomeCarousel = () => {
                           <Col md={12} className="text-center mt-5 ">
                             <Slide left>
                               <Button
-                                style={{ color: "white", marginBottom: "20px", }}
+                                style={{ color: "white", marginBottom: "10px", }}
                                 href="https://www.linkedin.com/in/gm-shakil-bhuiyan-42306817a/"
                                 variant="outline-primary"
                               >
@@ -43,7 +43,7 @@ const HomeCarousel = () => {
                             </Slide>
                             <Slide right>
                               <Button
-                                style={{ color: "white", marginBottom: "25px" }}
+                                style={{ color: "white", marginBottom: "15px" }}
                                 variant="outline-info"
                                 href="https://github.com/MdGolamMostafa"
                               >
@@ -66,9 +66,9 @@ const HomeCarousel = () => {
                         </Row>
                       </Col>
                     
-                      <Col md={6} className="d-flex  justify-content-center my-image">
+                      <Col md={6} className="mt-5 mb-5 d-flex  justify-content-center my-image">
                     
-                        <img style={{ height: "80%" }} className="img-fluid" src={"https://i.ibb.co/bv1LgFQ/shakil-febicon.png"} alt="picture" />
+                        <img style={{ height: "100%" }} className="img-fluid" src={"https://i.ibb.co/bv1LgFQ/shakil-febicon.png"} alt="picture" />
                       </Col>
                     </Row>
                   </Container>
