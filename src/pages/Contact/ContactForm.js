@@ -1,7 +1,7 @@
 import React from 'react';
 import './ContactForm.css';
 import emailjs from 'emailjs-com';
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 
 
 // import './Contact.css';
@@ -28,7 +28,7 @@ const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('shaker1234', 'gmail87', e.target, 'user_sG0KIB3KdSYDcPOSSxZZP')
+        emailjs.sendForm('gmail', 'template_j5f00gt', e.target, 'user_JTO9TttNRarntgLKyCZ3e')
             .then((result) => {
                 alert('Email sent successfully.');
             }, (error) => {
@@ -43,7 +43,6 @@ const Contact = () => {
 
     
     return (
-
         <div id="contact" className="contact-area">
             <div className="container"> 
                 <div class="section-title">
@@ -87,7 +86,7 @@ const Contact = () => {
                                     <h4 style={{ color: '#24ACF2' }}>E-mail</h4>
                                     <h5>gmshakilbhuiyan@gmail.com</h5>
                                     <h4 style={{ color: '#24ACF2' }}>Location</h4>
-                                    <h5>Mugda, Dhaka</h5>
+                                    <h5>Dhaka,Bangladesh</h5>
                                 </div>
 
                             </div>

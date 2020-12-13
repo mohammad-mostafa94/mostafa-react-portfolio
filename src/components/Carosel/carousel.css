@@ -1,7 +1,19 @@
-/* .custom-img {
-    height: 100vh;
-    object-fit: cover;
-    } */
 .color-dark{
     background-color:#173880;
+}
+
+#google-font-name{
+    /* font-family: 'Mrs Saint Delafield', cursive; */
+    font-family: 'Russo One', sans-serif;
+}
+#google-font-title{
+    /* font-family: 'Mrs Saint Delafield', cursive; */
+    /* font-family: 'Russo One', sans-serif; */
+    font-family: 'Vesper Libre', serif;
+}
+#font-hello{
+    /* font-family: 'Mrs Saint Delafield', cursive; */
+    /* font-family: 'Russo One', sans-serif; */
+    font-family: 'Lobster', cursive;
+
 }
