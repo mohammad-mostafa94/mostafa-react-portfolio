@@ -12,8 +12,12 @@ import stackOevrflow from './stack-overflow.png';
 const HomeCarousel = () => {
     return (
         <div id="home" className= 'color-dark'>
-
             <Container>
+            <marquee id="font-hello" behavior="scroll" direction="left"><h3>Hi there , I'm a Front-End Developer</h3></marquee>
+            {/* <div class="marquee-outer">
+<div class="marquee-inner"><img src="https://i.ibb.co/5rY4Yj9/physics.png" width="54" height="58" alt="Swimming fish"/></div>
+</div> */}
+
                     <Row>
                       <Col md={6}>
                         <Row>
@@ -25,7 +29,7 @@ const HomeCarousel = () => {
                                       </Typing>
                               </h1>
                                     <Spin>
-                                      <h2 id = "google-font-title">I'm a Front-End Developer</h2>
+                                      <h2 id = "google-font-title">I'm a Frontend Developer</h2>
                                     </Spin>
                           </Col>
                         </Row>
@@ -79,7 +83,7 @@ const HomeCarousel = () => {
         params={{
           "particles": {
             "number": {
-              "value": 40
+              "value": 20
             },
             "size": {
               "value": 3

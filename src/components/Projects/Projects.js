@@ -30,7 +30,7 @@ const TimeLine = () => {
         
 {/* Project:  Creative Agency */}
 <ImageEvent
-            date="Sep-09-2020"
+            date="Dec-09-2020"
             className="text-center"
             text="Creative Agency"
             src={'https://i.ibb.co/q5yzzPP/1-Landing-page.png'}
@@ -185,7 +185,7 @@ const TimeLine = () => {
 
           {/* Project: Volunteer Network */}
           <ImageEvent
-            date="Aug-11-2020"
+            date="Nov-21-2020"
             className="text-center"
             text="Volunteer Network"
             src={'https://i.ibb.co/h9T06M0/volunteer-Network-Home.png'}
@@ -340,7 +340,7 @@ const TimeLine = () => {
           </ImageEvent>
           {/* Project: Doctor Portal */}
           <ImageEvent
-            date="Jul-11-2020"
+            date="Nov-11-2020"
             className="text-center"
             text="Doctors Portal"
             src={'https://i.ibb.co/5jnLY7R/doctor-home-page.png'}
@@ -470,14 +470,14 @@ const TimeLine = () => {
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 
                 <UrlButton
-                  href="https://github.com/MdGolamMostafa/doctors-portal-client"
+                  href="https://doctors-portal123.netlify.app/"
                   target="_blank"
                 >
                   GITHUB(Client)
                 </UrlButton>
 
                 <UrlButton
-                  href="https://volunteer-network-6272e.web.app/"
+                  href="https://mdgolammostafa.github.io/doctors-portal-client/"
                   target="_blank"
                 >
                   GO LIVE
@@ -496,7 +496,7 @@ const TimeLine = () => {
 
           {/* Project: Travel Guru With MUI */}
         <ImageEvent
-            date="Apr-10-2020"
+            date="Oct-10-2020"
             className="text-center"
             text="Travel Guru"
             src={'https://i.ibb.co/b5bW950/Home.png'}
@@ -572,7 +572,6 @@ const TimeLine = () => {
                               Material-UI
                             </span>
                           </li>
-                          
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
