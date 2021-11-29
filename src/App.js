@@ -10,29 +10,29 @@ import Experience from './pages/EXPERIENCE/Experience';
 import TimeLine from './components/Projects/Projects';
 import ContactForm from './pages/Contact/ContactForm';
 import FooterPanel from './components/Footer/Footer';
-import Contact from './pages/Contact/ContactForm';
+// import Contact from './pages/Contact/ContactForm';
 import ContactLink from './pages/Contact/Contact';
 import Blogs from './pages/Blogs/Blogs';
 
-import StarfieldAnimation from "react-starfield-animation";
+// import StarfieldAnimation from "react-starfield-animation";
 
 function App() {
   return (
-    <div 
-        // <StarfieldAnimation
-        // style={{
-        //   position: "fixed",
-        //   width: "100%",
-        //   height: "100%",
-        // }}
-        // />
+    <div
+      // <StarfieldAnimation
+      // style={{
+      //   position: "fixed",
+      //   width: "100%",
+      //   height: "100%",
+      // }}
+      // />
 
-    className="App" style={{ position: "relative" }}>
-      <MyNavbar/>
-        <TitleMessage></TitleMessage>
-     
+      className=" bg-success" >
+      <MyNavbar />
+      <TitleMessage></TitleMessage>
+
       <HomeCarousel></HomeCarousel>
-      
+
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
@@ -51,21 +51,20 @@ function App() {
           blur={{ min: -30, max: 30 }}
           bgImage={require("./assets/img/parallex/background.webp")}
           bgImageAlt=""
-        strength={-200}
+          strength={-200}
         >
           <div>
-        <Container className="container-box rounded">
-          <Fade duration={500}>
-            <hr />
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+                <hr />
 
-            <Experience />
-          </Fade>
-        </Container>
-      </div>
-          
+                <Experience />
+              </Fade>
+            </Container>
+          </div>
+
         </Parallax>
       </div>
-
 
       <Container className="container-box rounded">
         <Fade duration={500}>

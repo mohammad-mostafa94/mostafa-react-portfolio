@@ -1,5 +1,5 @@
 import React from 'react';
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 import styled from "styled-components";
 
 const MyTitleMessage = styled.h1`
@@ -31,33 +31,33 @@ const MyTitleMessage = styled.h1`
   }
 `;
 const TitleMessage = () => {
-    return (
-        <MyTitleMessage>
-    <div className="titleMessage">
-    
-      <div className="heading">
-        <div className="main text-center ">
-          {/* This is
+  return (
+    <MyTitleMessage>
+      <div className="">
+
+        <div className="">
+          <div className=" ">
+            {/* This is
           <br /> */}
-          <span>
-            {/* <strong>MD.Golam Mostafa</strong> */}
-          </span>
+            <span>
+              {/* <strong>MD.Golam Mostafa</strong> */}
+            </span>
+          </div>
+          <div className="">
+            {/* <Typewriter
+              options={{
+                // strings: ["React Web Developer", "Learning with programming hero",' '],
+                // autoStart: true,
+                // loop: true,
+                // delay: 50
+              }}
+            /> */}
+          </div>
+
         </div>
-        <div className="sub">
-          <Typewriter
-            options={{
-              // strings: ["React Web Developer", "Learning with programming hero",' '],
-              autoStart: true,
-              loop: true,
-              delay: 50
-            }}
-          />
-        </div>
-        
       </div>
-    </div>
-  </MyTitleMessage>
-    );
+    </MyTitleMessage>
+  );
 };
 
 export default TitleMessage;

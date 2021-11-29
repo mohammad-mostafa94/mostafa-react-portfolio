@@ -16,7 +16,7 @@ const Contact = () => {
     // function sendEmail(e) {
 
     //     e.preventDefault();
-    
+
     //     emailjs.sendForm('gmail', 'template_j5f00gt', e.target, 'user_JTO9TttNRarntgLKyCZ3e')
     //       .then((result) => {
     //           console.log(result.text);
@@ -38,13 +38,13 @@ const Contact = () => {
     }
 
     AOS.init({
-        duration : 1500
-      })
+        duration: 1500
+    })
 
-    
+
     return (
         <div id="contact" className="contact-area">
-            <div className="container"> 
+            <div className="container">
                 <div class="section-title">
                     <h1 className="text-center text-success">GET IN TOUCH</h1>
                     <div className="br-top"></div>
@@ -80,11 +80,11 @@ const Contact = () => {
                             <div style={{ borderLeft: '2px solid gray', color: 'white' }}>
                                 <div className="contact-info ml-2">
                                     <h4 style={{ color: '#24ACF2' }}>Name</h4>
-                                    <h5>Golam Mostafa</h5>
+                                    <h5>Mohammad Mostafa</h5>
                                     <h4 style={{ color: '#24ACF2' }}>Mobile</h4>
                                     <h5>+8801521320291</h5>
                                     <h4 style={{ color: '#24ACF2' }}>E-mail</h4>
-                                    <h5>gmshakilbhuiyan@gmail.com</h5>
+                                    <h5>mohammadmostafa1094@gmail.com</h5>
                                     <h4 style={{ color: '#24ACF2' }}>Location</h4>
                                     <h5>Dhaka,Bangladesh</h5>
                                 </div>
@@ -101,7 +101,7 @@ const Contact = () => {
         //         <div className="section-header text-center text-white mb-5">
         //             <br/>
         //             <h1 className="text-primary">Contact Me</h1>
-                    
+
         //         </div>
         //         <div className="col-md-9 mx-auto">
         //             <form action="">
@@ -111,7 +111,7 @@ const Contact = () => {
         //                 <div className="form-group">
         //                    <input type="text" className="form-control" placeholder="Enter Your Email Address *"/>
         //                 </div>
-                        
+
         //                 <div className="form-group">
         //                    <textarea name="" className="form-control" id="" cols="30" rows="10" placeholder="Message *"></textarea>
         //                 </div>
