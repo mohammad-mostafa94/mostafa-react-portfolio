@@ -88,7 +88,6 @@ const Contact = () => {
                                     <h4 style={{ color: '#24ACF2' }}>Location</h4>
                                     <h5>Dhaka,Bangladesh</h5>
                                 </div>
-
                             </div>
                         </div>
                     </div>

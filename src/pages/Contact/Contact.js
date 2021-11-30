@@ -3,18 +3,20 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+
 import "./Contact.css";
 
 const ContactLink = () => {
   return (
-    <div id="contact">
+    <div className="my-5" id="contact" data-aos="fade-up"
+      data-aos-anchor-placement="bottom-center">
       <h1 className="pt-3 text-center  pb-3">CONNECT ALWAYS WITH ME</h1>
       <Jumbotron className="contact-jumbotron">
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
               <a
-                href="mailto:gmshakilbhuiyan@gmail.com"
+                href="mailto:mohammadmostafa1094@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -26,9 +28,9 @@ const ContactLink = () => {
                 </Button>
               </a>
             </div>
-            <div className="m-2"> 
+            <div className="m-2">
               <a
-                href="https://www.linkedin.com/in/gm-shakil-bhuiyan-42306817a/"
+                href="https://www.linkedin.com/in/mohammad-mostafa-42306817a/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -40,7 +42,7 @@ const ContactLink = () => {
 
             <div className="m-2">
               <a
-                href="https://github.com/MdGolamMostafa"
+                href="https://github.com/mohammad-mostafa94"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -52,7 +54,7 @@ const ContactLink = () => {
 
             <div className="m-2">
               <a
-                href="https://www.facebook.com/gmshakil.bhuiyan.1/"
+                href="https://www.facebook.com/profile.php?id=100069169974396"
                 target="_blank"
                 rel="noopener noreferrer"
               >

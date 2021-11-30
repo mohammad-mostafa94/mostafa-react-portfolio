@@ -9,7 +9,9 @@ import "./Experience.css";
 
 const Experience = () => {
   return (
-    <div id="about">
+    <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000" id="about">
       <br />
       <h1 className="pt-5 text-center  pb-3">ABOUT MYSELF</h1>
       <Jumbotron className="jumbo-style">

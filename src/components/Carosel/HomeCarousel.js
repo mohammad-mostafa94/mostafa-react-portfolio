@@ -11,11 +11,9 @@ import stackOevrflow from './stack-overflow.png';
 
 const HomeCarousel = () => {
   return (
-    <div id="home" className='color-dark'>
+    <div id="home" data-aos="fade-rights" className='color-dark '>
       <Container>
         {/* <marquee id="font-hello" behavior="scroll" direction="left"><h3>Hi there , I'm a Web Developer</h3></marquee> */}
-
-
         <Row>
           <Col md={6}>
             <Row>
