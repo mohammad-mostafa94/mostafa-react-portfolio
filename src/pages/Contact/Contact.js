@@ -8,9 +8,8 @@ import "./Contact.css";
 
 const ContactLink = () => {
   return (
-    <div className="my-5" id="contact" data-aos="fade-up"
-      data-aos-anchor-placement="bottom-center">
-      <h1 className="pt-3 text-center  pb-3">CONNECT ALWAYS WITH ME</h1>
+    <div className="my-5" id="contact" data-aos="fade-up" >
+      <h1 className="pt-3 text-center rainbow-text  pb-3">CONNECT ALWAYS WITH ME</h1>
       <Jumbotron className="contact-jumbotron">
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">

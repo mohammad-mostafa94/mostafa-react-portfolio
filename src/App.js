@@ -1,18 +1,19 @@
 import './App.css';
-import HomeCarousel from './components/Carosel/HomeCarousel';
+import Banner from './components/Banner/Banner';
 import TitleMessage from './components/MyTitleMessage/TitleMessage';
-import MyNavbar from './components/Navbar/Navbar.jsx'
+import MyNavbar from './components/Navbar/Navbar'
 import Container from "react-bootstrap/Container";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import { Parallax } from "react-parallax";
-import Experience from './pages/EXPERIENCE/Experience';
+import AboutMyself from './pages/AboutMyself/AboutMyself';
 import TimeLine from './components/Projects/Projects';
 import ContactForm from './pages/Contact/ContactForm';
 import FooterPanel from './components/Footer/Footer';
 // import Contact from './pages/Contact/ContactForm';
 import ContactLink from './pages/Contact/Contact';
 import Blogs from './pages/Blogs/Blogs';
+import Skills from './pages/SkillsInfo/SkillsValue';
 
 // import StarfieldAnimation from "react-starfield-animation";
 
@@ -27,11 +28,11 @@ function App() {
       // }}
       // />
 
-      className=" bg-success" >
+      className=" bg-info" >
       <MyNavbar />
       <TitleMessage></TitleMessage>
 
-      <HomeCarousel></HomeCarousel>
+      <Banner></Banner>
 
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
@@ -39,6 +40,15 @@ function App() {
           <TimeLine />
         </Slide>
       </Container>
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <Skills />
+          </Fade>
+        </Container>
+      </div>
       <Container className="container-box rounded">
         <Fade duration={500}>
           <hr />
@@ -58,10 +68,11 @@ function App() {
               <Fade duration={500}>
                 <hr />
 
-                <Experience />
+                <AboutMyself />
               </Fade>
             </Container>
           </div>
+
 
         </Parallax>
       </div>

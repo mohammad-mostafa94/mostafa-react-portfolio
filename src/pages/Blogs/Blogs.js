@@ -9,7 +9,7 @@ const Blogs = () => {
     return (
         <div id='blogs' >
             <br />
-            <h1 className='text-center mt-5'>My Blogs</h1>
+            <h1 className='text-center rainbow-text mt-5'>My Blogs</h1>
             <hr />
             <BlogCards></BlogCards>
             <CardDeck >

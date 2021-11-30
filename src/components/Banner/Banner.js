@@ -9,23 +9,22 @@ import github from './github.png';
 import linkedin from './linkedin (1).png';
 import stackOevrflow from './stack-overflow.png';
 
-const HomeCarousel = () => {
+const Banner = () => {
   return (
     <div id="home" data-aos="fade-rights" className='color-dark '>
       <Container>
-        {/* <marquee id="font-hello" behavior="scroll" direction="left"><h3>Hi there , I'm a Web Developer</h3></marquee> */}
         <Row>
           <Col md={6}>
             <Row>
-              <Col md={12} className="text-center">
-                <h1 id="font-hello" className="mb-3">
+              <Col md={12} className="text-center mt-3 ">
+                <h1 id="font-hello" className="mb-3 rainbow-text">
                   Hello, I'm <br />
                   <Typing>
-                    <span id="google-font-name" className="name-color">Mohammad Mostafa</span>
+                    <span id="google-font-name" className="name-color rainbow-text">Mohammad Mostafa</span>
                   </Typing>
                 </h1>
                 <Spin>
-                  <h2 id="google-font-title">I'm a Web Developer</h2>
+                  <h2 className="text-info" id="google-font-title">I'm a Web Developer</h2>
                 </Spin>
               </Col>
             </Row>
@@ -57,7 +56,7 @@ const HomeCarousel = () => {
                     variant="outline-success"
                     href="https://stackoverflow.com/users/17296064/mohammad-mostafa"
                   >
-                    Stack Overflow
+                    View Stack Overflow
                     <img className="svg-icon" src={stackOevrflow} alt="" />
                   </Button>
 
@@ -75,24 +74,62 @@ const HomeCarousel = () => {
       <Particles
 
         height="40vh"
+
         width="100%"
         params={{
           "particles": {
             "number": {
-              "value": 20
+              "value": 8,
+              "density": {
+                "enable": true,
+                "value_area": 800
+              }
+            },
+            "line_linked": {
+              "enable": false
+            },
+            "move": {
+              "speed": 1,
+              "out_mode": "out"
+            },
+            "shape": {
+              "type": [
+                "image",
+                "circle"
+              ],
+              "image": [
+                {
+                  "src": "https://img.icons8.com/office/16/000000/react.png",
+                  "height": 20,
+                  "width": 23
+                },
+                {
+                  "src": "https://img.icons8.com/color/96/000000/javascript--v1.png",
+                  "height": 20,
+                  "width": 20
+                },
+                {
+                  "src": "https://img.icons8.com/color/48/000000/mongodb.png",
+                  "height": 20,
+                  "width": 20
+                }
+              ]
+            },
+            "color": {
+              "value": "#CCC"
             },
             "size": {
-              "value": 3
-            }
-          },
-          "interactivity": {
-            "events": {
-              "onhover": {
+              "value": 30,
+              "random": false,
+              "anim": {
                 "enable": true,
-                "mode": "repulse"
+                "speed": 4,
+                "size_min": 10,
+                "sync": false
               }
             }
-          }
+          },
+          "retina_detect": false
         }} >
       </Particles>
 
@@ -100,4 +137,4 @@ const HomeCarousel = () => {
   );
 };
 
-export default HomeCarousel;
+export default Banner;

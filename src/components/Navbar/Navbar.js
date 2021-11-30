@@ -21,7 +21,7 @@ const MyNavbar = () => {
         <div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="color-light text-center " id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="mr-auto rainbow-text">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="https://drive.google.com/file/d/1LVEbNjtKagJZhabYZC3ammm2wsczxcuY/view?usp=sharing">Resume</Nav.Link>

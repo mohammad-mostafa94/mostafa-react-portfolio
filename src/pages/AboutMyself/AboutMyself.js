@@ -5,15 +5,15 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Tilt from "react-tilt";
-import "./Experience.css";
+import "./AboutMyself.css";
 
-const Experience = () => {
+const AboutMyself = () => {
   return (
     <div data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000" id="about">
       <br />
-      <h1 className="pt-5 text-center  pb-3">ABOUT MYSELF</h1>
+      <h1 className="pt-5 text-center rainbow-text pb-3">ABOUT MYSELF</h1>
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 25 }}>
@@ -26,7 +26,6 @@ const Experience = () => {
                 <div>
                   <Card.Text className="text-center style">
                     <strong className="body-title-style ">Curious Web Developer</strong>
-                    <br />
                     <br />
 
                     <ul className="text-left">
@@ -93,4 +92,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default AboutMyself;

@@ -24,7 +24,7 @@ const TimeLine = () => {
   return (
     <div id="projects">
       <br /><br />
-      <h1 className="pt-1 text-center  pb-3">RECENT  PROJECTS</h1>
+      <h1 className="rainbow-text pt-1 text-center  pb-3">RECENT  PROJECTS</h1>
       <Timeline>
         <Events>
 
@@ -343,7 +343,7 @@ const TimeLine = () => {
 
           {/* Project: Doctor Portal */}
           <ImageEvent
-            date="Nov-11-2020"
+            date="Oct-21-2021"
             className="text-center"
             text="Shakhawat Healthcare"
             src={'https://i.ibb.co/VBSh2KT/shakhawat-healtcare.png'}
@@ -455,12 +455,7 @@ const TimeLine = () => {
                   GO LIVE
                 </UrlButton>
 
-                {/* <UrlButton
-                  href="https://github.com/MdGolamMostafa/server-doctors-portals"
-                  target="_blank"
-                >
-                  GITHUB(Server)
-                </UrlButton> */}
+
 
               </div>
             </div>
