@@ -78,7 +78,7 @@ const Banner = () => {
 
           <Col md={6} className="mt-5 mb-5 d-flex  justify-content-center my-image">
 
-            <img style={{ height: "100%" }} className="img-fluid" src={"https://i.ibb.co/bv1LgFQ/shakil-febicon.png"} alt="selfPicture" />
+            <img data-aos="zoom-in-left" style={{ height: "100%" }} className="img-fluid" src={"https://i.ibb.co/bv1LgFQ/shakil-febicon.png"} alt="selfPicture" />
           </Col>
         </Row>
       </Container>
