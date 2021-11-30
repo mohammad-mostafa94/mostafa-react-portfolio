@@ -52,12 +52,23 @@ const Banner = () => {
                 </Slide>
                 <Slide bottom>
                   <Button
-                    style={{ color: "white" }}
-                    variant="outline-success"
+                    style={{ color: "white", marginBottom: "15px" }}
+                    variant="outline-info"
                     href="https://stackoverflow.com/users/17296064/mohammad-mostafa"
                   >
                     View Stack Overflow
                     <img className="svg-icon" src={stackOevrflow} alt="" />
+                  </Button>
+
+                </Slide>
+                <Slide bottom>
+                  <Button
+                    style={{ color: "white" }}
+                    variant="outline-info"
+                    href="https://drive.google.com/file/d/1LVEbNjtKagJZhabYZC3ammm2wsczxcuY/view?usp=sharing"
+                  >
+                    Download Resume
+                    <img src="https://img.icons8.com/external-kmg-design-flat-kmg-design/30/000000/external-download-arrow-kmg-design-flat-kmg-design-1.png" alt="" />
                   </Button>
 
                 </Slide>

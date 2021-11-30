@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-import BlogCards from './BlogCards';
+// import BlogCards from './BlogCards';
 import javascript2 from './javascript-2.jpg';
 import javascript from './javascript.jpg';
 import react from './react.jpg';
@@ -11,7 +11,7 @@ const Blogs = () => {
             <br />
             <h1 className='text-center rainbow-text mt-5'>My Blogs</h1>
             <hr />
-            <BlogCards></BlogCards>
+            {/* <BlogCards></BlogCards> */}
             <CardDeck >
                 <Card data-aos="fade-right" className="focus mt-2 mb-2">
                     <Card.Img variant="top" src={javascript} />

@@ -205,6 +205,7 @@ const TimeLine = () => {
                       PROJECT DETAILS
                     </Accordion.Toggle>
 
+
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
                         <strong>Description:</strong> A full-stack and responsive resort booking web application.

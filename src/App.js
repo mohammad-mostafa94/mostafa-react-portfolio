@@ -72,8 +72,6 @@ function App() {
               </Fade>
             </Container>
           </div>
-
-
         </Parallax>
       </div>
 

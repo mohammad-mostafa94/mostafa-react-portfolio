@@ -41,7 +41,6 @@ const Contact = () => {
         duration: 1500
     })
 
-
     return (
         <div id="contact" className="contact-area">
             <div className="container">
