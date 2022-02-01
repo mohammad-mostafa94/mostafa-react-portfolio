@@ -79,11 +79,11 @@ const Contact = () => {
                             <div style={{ borderLeft: '2px solid gray', color: 'white' }}>
                                 <div className="contact-info ml-2">
                                     <h4 style={{ color: '#24ACF2' }}>Name</h4>
-                                    <h5>Mohammad Mostafa</h5>
+                                    <h5>Md.Golam Mostafa</h5>
                                     <h4 style={{ color: '#24ACF2' }}>Mobile</h4>
-                                    <h5>+8801521320291</h5>
+                                    <h5>+8801828066711</h5>
                                     <h4 style={{ color: '#24ACF2' }}>E-mail</h4>
-                                    <h5>mohammadmostafa1094@gmail.com</h5>
+                                    <h5>gmshakilcse@gmail.com</h5>
                                     <h4 style={{ color: '#24ACF2' }}>Location</h4>
                                     <h5>Dhaka,Bangladesh</h5>
                                 </div>
