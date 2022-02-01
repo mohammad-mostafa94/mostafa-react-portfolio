@@ -21,7 +21,7 @@ const AboutMyself = () => {
 
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">Mohammad Mostafa</Card.Title>
+                  <Card.Title className="text-center">Md.Golam Mostafa</Card.Title>
                 </div>
                 <div>
                   <Card.Text className="text-center style">
