@@ -15,7 +15,7 @@ const ContactLink = () => {
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
               <a
-                href="mailto:mohammadmostafa1094@gmail.com"
+                href="gmshakilcse@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -29,7 +29,7 @@ const ContactLink = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://www.linkedin.com/in/mohammad-mostafa-42306817a/"
+                href="https://www.linkedin.com/in/md-golam-mostafa-42306817a/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
