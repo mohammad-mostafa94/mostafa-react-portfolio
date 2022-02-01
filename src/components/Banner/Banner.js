@@ -20,7 +20,7 @@ const Banner = () => {
                 <h1 id="font-hello" className="mb-3 rainbow-text">
                   Hello, I'm <br />
                   <Typing>
-                    <span id="google-font-name" className="name-color rainbow-text">Mohammad Mostafa</span>
+                    <span id="google-font-name" className="name-color rainbow-text">Md Golam Mostafa</span>
                   </Typing>
                 </h1>
                 <Spin>
@@ -33,7 +33,7 @@ const Banner = () => {
                 <Slide left>
                   <Button
                     style={{ color: "white", marginBottom: "10px", }}
-                    href="https://www.linkedin.com/in/mohammad-mostafa-42306817a/"
+                    href="https://www.linkedin.com/in/md-golam-mostafa-42306817a/"
                     variant="outline-primary"
                   >
                     View My LinkedIn Profile
